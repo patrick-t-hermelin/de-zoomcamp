@@ -453,6 +453,7 @@ name = "de-zoomcamp"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "click" },
     { name = "pandas" },
     { name = "pyarrow" },
     { name = "sqlalchemy" },
@@ -468,6 +469,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "click", specifier = ">=8.5.1" },
     { name = "pandas", specifier = ">=3.0.6" },
     { name = "pyarrow", specifier = ">=26.0.1" },
     { name = "sqlalchemy", specifier = ">=2.1.9" },

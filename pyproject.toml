@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "click>=8.5.1",
     "pandas>=3.0.6",
     "pyarrow>=26.0.1",
     "sqlalchemy>=2.1.9",

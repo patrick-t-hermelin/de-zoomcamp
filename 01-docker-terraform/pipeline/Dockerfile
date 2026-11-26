@@ -9,6 +9,6 @@ RUN uv sync --locked
 
 ENV PATH="/app/.venv/bin:$PATH"
 
-COPY 01-docker-terraform/pipeline/pipeline.py .
+COPY ingest_data.py .
 
-ENTRYPOINT ["python", "pipeline.py"]
+ENTRYPOINT ["python", "ingest_data.py"]
